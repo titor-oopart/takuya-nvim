@@ -1,6 +1,17 @@
 #!/bin/bash
 tmux split-window -v -l 30%
+tmux send-key ^l
 tmux split-window -h -l 50%
+tmux send-key ^l
 tmux select-pane -L
-# $(clear)
-#tmux split-window -h -l 50%
+tmux send-key ^l
+tmux split-window -h -l 50%
+tmux send-key ^l
+tmux select-pane -L
+tmux send-key ^l
+tmux send-key ^D
+tmux send-key ^l
+tmux select-pane -U
+# tmux send Enter
+# tmux select-pane -L
+# tmux split-window -h -l 50%
