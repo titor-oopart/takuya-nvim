@@ -13,6 +13,7 @@ vim.opt.rtp:prepend(lazypath)
 
 require("lazy").setup({
 	spec = {
+		{ "nvim-telescope/telescope.nvim" }, -- Asegúrate de que el nombre sea correcto
 		-- add LazyVim and import its plugins
 		{
 			"LazyVim/LazyVim",
